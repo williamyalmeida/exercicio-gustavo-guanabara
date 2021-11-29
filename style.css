@@ -1,0 +1,29 @@
+
+body {
+    background-image: url('./imagens/wallpaper001.jpg');
+    /* background-repeat: no-repeat;
+    background-position: center; */
+    /* background-size: cover; */
+    
+}
+.quadrado {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: lightgray;
+}
+
+#quadrado1{
+    background-color: skyblue;
+}
+#quadrado2{
+    background-image: linear-gradient(to bottom, yellow, red);
+}
+#quadrado3{
+    background-image: url(./imagens/pattern003.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
